@@ -1,4 +1,4 @@
-# **Welcome to Bicycle-Share analysis in Python**
+# **Welcome to Ryanair Price analysis in Python**
 
 ### *Characteristics:*
 * Difficulty: _Beginner/Intermediate level_
@@ -8,15 +8,14 @@
 ***
 
 ## 1.1 Scenario
-<img src="https://github.com/damicodavid/Bycicly_Share_Project/assets/156213397/304d2733-001c-4d5e-bcc8-334a94ace6d7" alt="drawing" width="200"/>
 
-In **2016**, _Cyclistic_ launched a successful bike-share offering. 
-<br> Since then, the program has grown
-to a fleet of **5,824 bicycles** that are geotracked and locked into a network of 692 stations
-across **Chicago**. 
-<br>The bikes can be unlocked from one station and returned to any other station
-in the system anytime.
+<img src="https://github.com/damicodavid/Ryanair_Price_Analysis/assets/156213397/4ca23176-7a01-4bf6-901f-739855295eb5" alt="drawing" width="400"/>
 
+
+Ryanair is an airline company founded in 1985 by Irish businessman Tony Ryan, who employed increasingly efficient and profitable techniques. 
+As of today, the company boasts *565 aircraft*, *over 22,000 employees*, and transported more than *142 million people in 2022*. It operates over 3,000 routes daily across 40 countries and 240 airports.
+
+The exponential growth over the years can be attributed to the marketing strategies employed and pricing configuration techniques based on profitable price discrimination.
 The basic approach was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships:
 
 * Customers who purchase single-ride or full-day passes are referred to as casual riders.
