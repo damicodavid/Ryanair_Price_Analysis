@@ -1,4 +1,4 @@
-# **Welcome to Ryanair Price analysis in Python**
+# **Welcome to Ryanair Price analysis in Python [IN PROGRESS]**
 
 ### *Characteristics:*
 * Difficulty: _Beginner/Intermediate level_
@@ -9,34 +9,37 @@
 
 ## 1.1 Scenario
 
-<img src="https://github.com/damicodavid/Ryanair_Price_Analysis/assets/156213397/4ca23176-7a01-4bf6-901f-739855295eb5" alt="drawing" width="400"/>
+<img src="https://github.com/damicodavid/Ryanair_Price_Analysis/assets/156213397/4ca23176-7a01-4bf6-901f-739855295eb5" alt="drawing" width="300"/>
 
 
-Ryanair is an airline company founded in 1985 by Irish businessman Tony Ryan, who employed increasingly efficient and profitable techniques. 
-As of today, the company boasts *565 aircraft*, *over 22,000 employees*, and transported more than *142 million people in 2022*. It operates over 3,000 routes daily across 40 countries and 240 airports.
+Ryanair is an airline company founded in 1985 by Irish businessman Tony Ryan.
+<br>
+As of today, the company boasts *565 aircraft*, *over 22,000 employees*, and transported more than *142 million people in 2022*. 
+<br>It operates over 3,000 routes daily across 40 countries and 240 airports.
 
-The exponential growth over the years can be attributed to the marketing strategies employed and pricing configuration techniques based on profitable price discrimination.
-The basic approach was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships:
+We gathered data through an API of these 2 route:
+* Milano Maplpensa (MXP) --> Catania (CTA) - Sicily
+* Milano-Bergamo (BGY) --> Catania (CTA) - Sicily
 
-* Customers who purchase single-ride or full-day passes are referred to as casual riders.
-* Customers who purchase annual memberships are Cyclistic members.
+****
 
-**Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders.**
+## 1.2 Goals Insights
 
-***
+1. How then company discriminate the ticket price based on the starting airport (Main - Milano Malpensa, closer to the city & Secondary - Bergamo)
 
-## 1.2 Marketing goals
-1. How do annual members and casual riders use _Cyclistic_ bikes differently?
-2. What are the possible action in order to convert casual rider to annual memberships type?
+2. How price differ if I need to book for a date close to the gathering date?
+
+3. How price differ from high to low season period (Christmas holidays)?
+
 
 ***
 
 
 ## 1.3 Step-by-step Analysis 
 
-We'll analyze quarter 2019 Q4 and 2020 Q1 data frame (6 months dataset) and we'll present the possible resolutions for the marketing dep.
+We'll analyze data from 01/11/2023 to 24/01/2023 and we'll present our insight through a interactive dashboard.
 
-**1. Download the public data from -> [Datasets](https://divvy-tripdata.s3.amazonaws.com/index.html)**
+**1. Download the public data from -> [Datasets](xxxx)**
 
 **2. Verify how is the data organized (columns structure and wideness)?**
 
@@ -48,19 +51,33 @@ We'll analyze quarter 2019 Q4 and 2020 Q1 data frame (6 months dataset) and we'l
 
 **After these preliminary phases we can go through the _Data overview process_:**
 
-**5.Overview your data:**
+**5.Install through Powershell Terminal:**
 
 ``` 
+pip install numpy as np
+pip install numpy pandas
+pip install numpy matplotlib.pyplot
+pip install numpy seaborn
+``` 
+
+**6.Import libraries & Overview your data:**
+
+``` 
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-df1 = pd.read_csv("Divvy_Trips_2019_Q4.csv") 
+df = pd.read_excel('Ryanair_Data_300123.xlsx') 
 
-print(df1)
+df.head() 
+
+# Quick check on how the dataset looks like
+
 ```
-
 This will give you and overview of your data:
 
-![image](https://github.com/damicodavid/Bycicly_Share_Project/assets/156213397/8f0b404a-97af-43ed-a310-e762cce2773f)
+
 
 repeat for the second dataframe
 ``` 
@@ -199,7 +216,6 @@ After have been analyzed data we find out that casual riders are most likely usi
 
 <br>
 <br>
-
 
 ***
 ## 1.4 Visualization and Conclusions
