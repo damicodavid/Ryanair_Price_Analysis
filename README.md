@@ -17,7 +17,7 @@ Ryanair is an airline company founded in 1985 by Irish businessman Tony Ryan.
 As of today, the company boasts *565 aircraft*, *over 22,000 employees*, and transported more than *142 million people in 2022*. 
 <br>It operates over 3,000 routes daily across 40 countries and 240 airports.
 
-We gathered data through an API of these 2 route:
+We gathered data through an API of these 2 routes:
 * Milano Maplpensa (MXP) --> Catania (CTA) - Sicily
 * Milano-Bergamo (BGY) --> Catania (CTA) - Sicily
 
