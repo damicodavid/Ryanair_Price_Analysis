@@ -37,7 +37,7 @@ We'll analyze data from 01/11/2023 to 24/01/2023 and we'll present our insight t
 
 ## 1.3 Step-by-step Analysis 
 
-**1. Download the public data from -> [Datasets](xxxx)**
+**1. Download the public data from -> [Datasets](https://github.com/damicodavid/Ryanair_Price_Analysis-In-progress-/blob/main/Ryanair_Data_300123.xlsx)**
 
 **2. Verify how is the data organized (columns structure and wideness)?**
 
