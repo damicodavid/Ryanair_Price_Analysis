@@ -25,11 +25,11 @@ We gathered data through an API of these 2 routes:
 
 ## 1.2 Goals Insights
 
-1. How company discriminate the ticket price based on the starting airport (Main - Milano Malpensa, closer to the city & Secondary - Bergamo)
+* How company discriminate the ticket price based on the starting airport (Main - Milano Malpensa, closer to the city & Secondary - Bergamo)
 
-2. How does the ticket price change as we move further away from today's date and book with less advance notice??
+* How does the ticket price change as we move further away from today's date and book with less advance notice??
 
-3. How price differ from high to low season period (Ex: Christmas holidays)?
+* How price differ from high to low season period (Ex: Christmas holidays)?
 
 
 ***
@@ -47,9 +47,9 @@ We'll analyze data from 01/11/2023 to 24/01/2023 and we'll present our insight t
 <br>
 <br>
 
-**After these preliminary phases we can go through the _Data overview process_:**
+### Data overview process:
 
-**5.Install Packages on Python by Powershell Terminal:**
+**5. Install Packages on Python by Powershell Terminal:**
 
 ``` 
 pip install numpy as np
@@ -58,7 +58,7 @@ pip install numpy matplotlib.pyplot
 pip install numpy seaborn
 ``` 
 
-**6.Import libraries & Overview your data:**
+**6. Import libraries & Overview your data:**
 
 ``` 
 import pandas as pd
@@ -73,7 +73,7 @@ This will give you and overview of your data:
 
 ![1 Overview Data](https://github.com/damicodavid/Ryanair_Price_Analysis-In-progress-/assets/156213397/37f93c89-eda2-4814-8643-1552cbed74bc)
 
-**6. Check data type and other crucial info of each column:**
+**7. Check data type and other crucial info of each column:**
 
 ``` 
 import pandas as pd
@@ -83,12 +83,12 @@ df = pd.read_csv("Divvy_Trips_2019_Q4.csv")
 df.info() # Summary information about the dataframe
 
 ```
-<br>
 
 ***
 
-### After these overview phases we can go through the _Data manipulation and cleaning process_:
-**7.Check and remove any duplicates:**
+### Data manipulation and cleaning process:
+
+**8.Check and remove any duplicates:**
 ```
 import pandas as pd
 
