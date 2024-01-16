@@ -73,7 +73,6 @@ This will give you and overview of your data:
 
 ![1 Overview Data](https://github.com/damicodavid/Ryanair_Price_Analysis-In-progress-/assets/156213397/37f93c89-eda2-4814-8643-1552cbed74bc)
 
-
 **6. Check data type and other crucial info of each column:**
 
 ``` 
@@ -85,10 +84,10 @@ df.info() # Summary information about the dataframe
 
 ```
 <br>
-<br>
 
-**After these overview phases we can go through the _Data manipulation and cleaning process_:**
-<br>
+***
+
+### After these overview phases we can go through the _Data manipulation and cleaning process_:
 **7.Check and remove any duplicates:**
 ```
 import pandas as pd
@@ -104,12 +103,9 @@ df.to_csv('Ryanair_Data_300123_v1.csv', index=False)
 
 ```
 <br>
-<br>
-<br>
 
 Now we have all the data we need to start to analyse and create our dashboards that we will tell our story about the dataset in order to address our conclusions.
 
-<br>
 <br>
 
 ***
