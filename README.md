@@ -111,8 +111,7 @@ Now that we have all the data we'll start the analysis process and then create t
 ***
 ## 1.4 Visualization and Conclusions
 
-![Dashboard_Ryanair_v1](https://github.com/damicodavid/Ryanair_Price_Analysis-In-progress-/assets/156213397/8278e175-5de4-4879-bc67-f0b90aca2411)
-
+![Dashboard_Ryanair_v2](https://github.com/damicodavid/Ryanair_Price_Analysis/assets/156213397/3892ad06-bc03-4815-914a-fd742e37fa44)
 
 Check my viz here->[Tableau Pubblic](https://public.tableau.com/app/profile/david.d.amico/viz/Ryanair_Analysis/Dashboard1)
 <br>
