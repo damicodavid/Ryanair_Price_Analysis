@@ -1,4 +1,4 @@
-# **Welcome to Ryanair Price analysis in Python [IN PROGRESS]**
+# **Welcome to Ryanair Price analysis in Python**
 
 ### *Characteristics:*
 * Difficulty: _Beginner/Intermediate level_
@@ -104,23 +104,20 @@ df.to_csv('Ryanair_Data_300123_v1.csv', index=False)
 ```
 <br>
 
-Now we have all the data we need to start to analyse and create our dashboards that we will tell our story about the dataset in order to address our conclusions.
+Now that we have all the data we'll start the analysis process and then create the dashboards that will endorse our conlusions.
 
 <br>
 
 ***
 ## 1.4 Visualization and Conclusions
 
+![Dashboard_Ryanair_v1](https://github.com/damicodavid/Ryanair_Price_Analysis-In-progress-/assets/156213397/8278e175-5de4-4879-bc67-f0b90aca2411)
 
-Check my viz here->[Tableau Pubblic](xxx)
+
+Check my viz here->[Tableau Pubblic](https://public.tableau.com/app/profile/david.d.amico/viz/Ryanair_Analysis/Dashboard1)
 <br>
 <br>
 **INSIGHTS:**
-1. xxx
-2. xxx
-3. xx
-
-**SOLUTIONS:**
-1. xxx
-2. xxx
-3. xxx
+1. Prices during Christmas season skyrocket around 500% more than the average price.
+2. Booking with at least 3 days prior we can save 71% in ticket price.
+3. Tuesday and Wednesday seems the cheapest days to fly.
