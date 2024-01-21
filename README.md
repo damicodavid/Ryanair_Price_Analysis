@@ -25,7 +25,7 @@ We gathered data through an API of these 2 routes:
 
 ## 1.2 Goals Insights
 
-* How company discriminate the ticket price based on the starting airport (Main - Milano Malpensa, closer to the city & Secondary - Bergamo)
+* How company discriminate the ticket price based on the starting airport (Main - Milano Malpensa & Secondary - Bergamo)
 
 * How does the ticket price change as we move further away from today's date and book with less advance notice??
 
