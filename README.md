@@ -52,7 +52,7 @@ We'll analyze data from 01/11/2023 to 24/01/2023 and we'll present our insight t
 **5. Install Packages on Python by Powershell Terminal:**
 
 ``` 
-pip install numpy pandas
+pip install pandas as pd
 ``` 
 
 **6. Import libraries & Overview your data:**
