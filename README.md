@@ -52,10 +52,7 @@ We'll analyze data from 01/11/2023 to 24/01/2023 and we'll present our insight t
 **5. Install Packages on Python by Powershell Terminal:**
 
 ``` 
-pip install numpy as np
 pip install numpy pandas
-pip install numpy matplotlib.pyplot
-pip install numpy seaborn
 ``` 
 
 **6. Import libraries & Overview your data:**
